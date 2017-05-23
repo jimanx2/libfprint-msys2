@@ -1,0 +1,3 @@
+#!/bin/sh
+UNAME_MACHINE=`(uname -m) 2>/dev/null` || UNAME_MACHINE=unknown
+echo ${UNAME_MACHINE}-w64-mingw32
